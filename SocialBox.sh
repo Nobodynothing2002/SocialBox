@@ -19,6 +19,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 #Installation
 sleep 1
+
+
 echo -e "Checking Installation $nc"
 bash install-sb.sh
 echo -e "Checking Completed [$green✓$nc] $nc "
